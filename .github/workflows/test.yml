@@ -19,7 +19,7 @@ jobs:
           pip install tweepy
 
       - name: Publish tweet
-        uses: intelowlproject/twitter-post
+        uses: intelowlproject/twitter_post
         with:
           status: cool this works or doesnt it!
           api_key: ${{ secrets.TWITTER_API_KEY}}
